@@ -59,8 +59,10 @@ function App() {
       <TasksContext.Provider
         value={{ tasksDB, setTasksDB, tasksUI, setTasksUI }}>
         <main className='p-4'>
-          <div className='flex justify-between items-end'>
-            <h1 className='text-4xl font-bold'>Tasks ({tasksUI.length})</h1>
+          <div className='flex flex-wrap gap-4 items-center justify-center sm:items-end sm:justify-between'>
+            <h1 className='text-4xl font-bold basis-3/4 text-center sm:basis-auto sm:text-start'>
+              Tasks ({tasksUI.length})
+            </h1>
             <section className='flex gap-2'>
               <Sort />
               <Filter />
