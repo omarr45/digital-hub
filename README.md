@@ -1,27 +1,25 @@
-# React + TypeScript + Vite
+# Tasks Organizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple task organizer, done as a part of Digital Hub interview.
 
-Currently, two official plugins are available:
+![screenshot of the app's homepage](https://github.com/omarr45/digital-hub/assets/58887202/e860e268-3672-4559-9458-537090d0d81c)
+![screenshot of the app's editing interface](https://github.com/omarr45/digital-hub/assets/58887202/14e25732-56c8-4380-adb0-e184cf0b7b70)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Tech Stack
+* Vite
+* TypeScript
+* React JS
+* Radix UI
+* TailwindCSS
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Features
+* Fully accessible (keyboard + screen readers)
+* Add tasks
+* Delete tasks
+* Edit tasks
+* Sort tasks by (Status, Title, or Description)
+* Filter tasks by Status
+* Responsive
+* Saves to local storage
